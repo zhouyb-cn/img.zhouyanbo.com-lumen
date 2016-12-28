@@ -12,7 +12,8 @@
 */
 
 $app->get('/', function () use ($app) {
-    return $app->version();
+    // return $app->version();
+    return view('index');
 });
 
-$app->get('/test', 'ExampleController@test');
+$app->get('/test', 'FileController@test');

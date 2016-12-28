@@ -13,4 +13,8 @@ class FileController extends Controller
     {
         //
     }
+
+    public function test() {
+        flash("success");
+    }
 }
